@@ -1,39 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-    <title>FlatLab - Flat &amp; Responsive Bootstrap Admin Template</title>
-    <link rel="shortcut icon" href="http://www.uimaker.com/uploads/bs/bs04/img/favicon.html">
-    <!-- Bootstrap core CSS -->
-    <link href="http://www.uimaker.com/uploads/bs/bs04/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://www.uimaker.com/uploads/bs/bs04/css/bootstrap-reset.css" rel="stylesheet">
-    <!--external css-->
-    <link href="http://www.uimaker.com/uploads/bs/bs04/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="http://www.uimaker.com/uploads/bs/bs04/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen">
-    <link rel="stylesheet" href="http://www.uimaker.com/uploads/bs/bs04/css/owl.carousel.css" type="text/css">
-    <!-- Custom styles for this template -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMS_QQ</title>
+    <!-- <link rel="shortcut icon" href="img/favicon.html"> -->
+    <link rel="icon" type="icon" href="http://www.xtep.com/favicon.ico">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://www.uimaker.com/uploads/bs/bs04/css/style.css" rel="stylesheet">
-    <link href="http://www.uimaker.com/uploads/bs/bs04/css/style-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="./dist/css/c.css">
+    <link rel="stylesheet" href="./dist/css/1.css">
 </head>
 <body>
-    <header class="header white-bg">
-            <div class="sidebar-toggle-box">
-                <div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
-            </div>
-            <!--logo start-->
+    <header id="top">
+        <div class="left">
+            <div>
+                
+            <span style="cursor: pointer;font-size: 22px;" class="glyphicon glyphicon-list" aria-hidden="true"></span>
             <a href="#" class="logo">Flat<span>lab</span></a>
-            <!--logo end-->
-            <div class="nav notify-row" id="top_menu">
-                <!--  notification start -->
-                <ul class="nav top-menu">
+            </div>
+            <div class="three">
+               <ul class="nav top-menu">
                     <!-- settings start -->
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -236,33 +224,127 @@
                     </li>
                     <!-- notification dropdown end -->
                 </ul>
-                <!--  notification end -->
             </div>
-            <div class="top-nav ">
-                <!--search & user info start-->
-                <ul class="nav pull-right top-menu">
-                    <li>
-                        <input type="text" class="form-control search" placeholder="Search">
-                    </li>
-                    <!-- user login dropdown start-->
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <img alt="" src="http://www.uimaker.com/uploads/bs/bs04/img/avatar1_small.jpg">
-                            <span class="username">Jhon Doue</span>
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu extended logout">
-                            <div class="log-arrow-up"></div>
-                            <li><a href="#"><i class=" icon-suitcase"></i>Profile</a></li>
-                            <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
-                            <li><a href="#"><i class="icon-bell-alt"></i> Notification</a></li>
-                            <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
-                        </ul>
-                    </li>
-                    <!-- user login dropdown end -->
-                </ul>
-                <!--search & user info end-->
+        </div>
+        <div class="right">
+            <!-- <input type="text" class="form-control search" placeholder="Search"> -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="http://www.uimaker.com/uploads/bs/bs04/img/avatar1_small.jpg" alt="">
+                Action <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">轮廓</a></li>
+                <li><a href="#">设置</a></li>
+                <li><a href="#">通知</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">退出</a></li>
+              </ul>
             </div>
-        </header>
+        </div>
+       
+    </header>
+    <section id="bottom">
+        <aside>
+<div id="sidebar" class="nav-collapse " tabindex="5000" style="overflow: hidden; outline: none;">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">
+                  <li class="active">
+                      <a class="" href="index.html">
+                          <i class="icon-dashboard"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仪表板</font></font></span>
+                      </a>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-book"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UI元素</font></font></span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="general.html">General</a></li>
+                          <li><a class="" href="buttons.html">Buttons</a></li>
+                          <li><a class="" href="widget.html">Widget</a></li>
+                          <li><a class="" href="slider.html">Slider</a></li>
+                          <li><a class="" href="font_awesome.html">Font Awesome</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu open">
+                      <a href="javascript:;" class="">
+                          <i class="icon-cogs"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件</font></font></span>
+                          <span class="arrow open"></span>
+                      </a>
+                      <ul class="sub" style="overflow: hidden; display: block;">
+                          <li><a class="" href="grids.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网格</font></font></a></li>
+                          <li><a class="" href="calendar.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日历</font></font></a></li>
+                          <li><a class="" href="charts.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图表</font></font></a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-tasks"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">形式的东西</font></font></span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="form_component.html">Form Components</a></li>
+                          <li><a class="" href="form_wizard.html">Form Wizard</a></li>
+                          <li><a class="" href="form_validation.html">Form Validation</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-th"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据表</font></font></span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="basic_table.html">Basic Table</a></li>
+                          <li><a class="" href="dynamic_table.html">Dynamic Table</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a class="" href="inbox.html">
+                          <i class="icon-envelope"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件</font></font></span>
+                          <span class="label label-danger pull-right mail-info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></span>
+                      </a>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-glass"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">额外</font></font></span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub" style="overflow: hidden; display: none;">
+                          <li><a class="" href="blank.html">Blank Page</a></li>
+                          <li><a class="" href="profile.html">Profile</a></li>
+                          <li><a class="" href="invoice.html">Invoice</a></li>
+                          <li><a class="" href="404.html">404 Error</a></li>
+                          <li><a class="" href="500.html">500 Error</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a class="" href="login.html">
+                          <i class="icon-user"></i>
+                          <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登录页面</font></font></span>
+                      </a>
+                  </li>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+        </aside>
+        <section>
+            <div class="box">
+                <h3>tset测试</h3>
+                <h2>tset测试</h2>
+            </div>
+        </section>
+    </section>
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

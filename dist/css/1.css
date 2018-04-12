@@ -1,0 +1,25 @@
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden; }
+  #top .left {
+    display: flex; }
+    #top .left .logo {
+      font-size: 21px;
+      color: #2e2e2e;
+      margin-left: 18px;
+      text-transform: uppercase; }
+      #top .left .logo span {
+        color: #FF6C60; }
+    #top .left ul {
+      display: flex; }
+      #top .left ul li {
+        flex: 1; }
+  #top .right .btn-group {
+    display: inline-block; }
+
+#bottom aside {
+  overflow-y: auto; }
+  #bottom aside #sidebar {
+    background: #2a3542; }

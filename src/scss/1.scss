@@ -1,0 +1,32 @@
+#top{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	.left{
+		display:flex;
+		.logo {
+		    font-size: 21px;
+		    color: #2e2e2e;
+		    margin-left: 18px;
+		    text-transform: uppercase;
+		    span{
+		    	    color: #FF6C60;
+		    }
+		}
+		
+		}
+
+	}
+	.right{
+		.btn-group{
+			display:inline-block;
+		}
+	}
+}
+#bottom{
+	aside{
+		#sidebar {
+		   
+		}
+	}
+}
