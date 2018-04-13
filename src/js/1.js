@@ -6,5 +6,8 @@ $(function () {
         // 阻止冒泡
         ev.stopPropagation();
     });
+    // $('.list li a').click(()=>{
+    // 	this.css('background','#92c609')
+    // })
 
 })

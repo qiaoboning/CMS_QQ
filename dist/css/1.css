@@ -30,6 +30,7 @@
       margin: 0 12px; }
       #bottom aside .list li ol li:hover {
         background: rgba(0, 0, 0, 0.3);
+        background: #acd5f5;
         font-weight: 900;
         color: #FFF; }
       #bottom aside .list li a {
@@ -37,6 +38,7 @@
         font-weight: 900; }
     #bottom aside .list a:hover {
       background: rgba(255, 0, 0, 0.2);
+      background: #acd5f5;
       display: block;
       color: #fff;
       text-decoration: none; }
