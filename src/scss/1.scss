@@ -14,7 +14,6 @@
 		    }
 		}
 		
-		}
 
 	}
 	.right{
@@ -25,8 +24,50 @@
 }
 #bottom{
 	aside{
-		#sidebar {
-		   
+		background: rgba(0,0,255,.1);
+		overflow-y: auto;
+		.list {
+			//list-style-position: inside;
+			width:160px;
+			margin:0 auto;
+			//background: #2a3542;
+			li{
+				font-family: '宋体';
+				line-height:37px;
+				font-size: 14px;
+				cursor: pointer;
+				color:#003;
+				margin:0 12px;
+				ol{
+					li:hover{
+						background: rgba(0,0,0,.3);
+						font-weight:900;
+						color:#FFF;
+					}
+				}
+				a{
+					color: #003;
+					font-weight:900;
+				}
+			}
+			a:hover{
+				background:rgba(255,0,0,.2);
+				display:block;
+				color: #fff;
+				text-decoration:none;
+			}
+			.expand {
+				//list-style-image: url(../imgs/expand.gif);
+				background: url(../imgs/expand.gif) no-repeat right 14px;
+			}
+			.fold {
+				background: url(../imgs/fold.gif) no-repeat right 14px;
+				//list-style-image: url(../imgs/fold.gif);
+			}
+
 		}
+
+
+
 	}
 }

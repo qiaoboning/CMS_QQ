@@ -1,0 +1,1 @@
+$(function(){$("li:has(ol)").addClass("expand").click(function(){$(this).toggleClass("fold").children("ol").toggle(200)}),$("li").click(function(l){l.stopPropagation()})});

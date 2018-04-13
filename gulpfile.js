@@ -17,7 +17,7 @@ gulp.task("sass",function(){
 });
 //压缩图片
 gulp.task("imagemin",function(){
-    gulp.src("src/imgs/**/*")
+    gulp.src("./src/imgs/*/.{png,jpg,gif,ico}")
         .pipe(imagemin())
         .pipe(gulp.dest("dist/imgs"))
 });
@@ -41,6 +41,6 @@ gulp.task('default',['sass','uglify','imagemin'],function(){
     });
 
     // 监听命令
-    gulp.watch(['./*.html','./src/scss/*.scss','./src/js/*.js'],['connect'])
+    gulp.watch(['./*.html','./src/scss/*.scss','./src/js/*.js','./src/imgs/*.*'],['connect'])
  
 });
