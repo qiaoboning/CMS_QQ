@@ -40,7 +40,7 @@ body{
 	}
 	section{
 		flex:1;
-		margin:72px 12px 12px;
+		margin:60px 12px 0px;
 		background: rgba(0,255,0,.3);
 
 		// display:flex;
@@ -50,4 +50,7 @@ body{
 			height:888px;
 		}
 	}
+}
+.hide{
+	display:none;
 }

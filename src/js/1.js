@@ -9,5 +9,13 @@ $(function () {
     // $('.list li a').click(()=>{
     // 	this.css('background','#92c609')
     // })
+    $('#btn').click(function(){
+        $('#bottom aside').toggleClass('hide')
+    })
 
 })
+// (function () {
+//     new Vue({
+//         el:'#bottom'
+//     })
+// })()
