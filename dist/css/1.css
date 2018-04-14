@@ -65,3 +65,32 @@
       background: url(../imgs/expand.gif) no-repeat right 14px; }
     #bottom aside .list .fold {
       background: url(../imgs/fold.gif) no-repeat right 14px; }
+
+.rightContent .col-md-3 .panel {
+  height: 100px;
+  border-radius: 5px; }
+  .rightContent .col-md-3 .panel .left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    width: 50%;
+    background: #6ccac9;
+    height: 100%;
+    text-align: center;
+    line-height: 100px; }
+    .rightContent .col-md-3 .panel .left i {
+      font-size: 44px;
+      color: #fff; }
+  .rightContent .col-md-3 .panel .sale {
+    background: #ff6c60; }
+  .rightContent .col-md-3 .panel .right {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 20px; }
+    .rightContent .col-md-3 .panel .right h1 {
+      font-size: 26px;
+      color: #c7cfde; }
+      .rightContent .col-md-3 .panel .right h1 p {
+        font-size: 12px;
+        color: #eeeff2; }

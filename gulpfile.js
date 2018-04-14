@@ -17,7 +17,7 @@ gulp.task("sass",function(){
 });
 //压缩图片
 gulp.task("imagemin",function(){
-    gulp.src("src/imgs/*.*")
+    gulp.src("src/imgs/*/*")
         .pipe(imagemin())
         .pipe(gulp.dest("dist/imgs"))
 });

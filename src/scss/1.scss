@@ -96,7 +96,64 @@
 
 		}
 
-
-
+	}
+}
+.rightContent{
+	.nav{
+		.col-md-3{
+			.panel{
+				height:100px;
+				border-radius: 5px;
+				//width:25%;
+				.left{
+					border-top-left-radius: 5px;
+					border-bottom-left-radius: 5px;
+					float:left;
+					width:50%;
+					background:#6ccac9;
+					height:100%;
+					text-align:center;
+					line-height:100px;
+					i{
+						font-size:44px;
+						color:#fff;
+					}
+				}
+				.sale{
+					background:#ff6c60;
+				}
+				.right{
+					width:50%;
+					float:left;
+					text-align:center;
+					padding-top:20px;
+					h1{
+						font-size:26px;
+						color:#c7cfde;
+						p{
+							font-size:12px;
+							color:#eeeff2;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.charts{
+	.row{
+		#container{
+			width:80%;
+			float:left;
+			height:400px;
+			margin:0 auto;
+		}
+	}
+	.col-md-4{
+		.top{
+			height:120px;
+			background:#a9d96c;
+			border-radius:5px;
+		}
 	}
 }
