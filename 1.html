@@ -12,39 +12,61 @@
     <link rel="stylesheet" href="assets/ionic/css/ionic.css">
     <link rel="stylesheet" href="./dist/css/c.css">
     <link rel="stylesheet" href="./dist/css/1.css">
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>-->
 </head>
 <body>
     <header id="top">
         <div class="left">
-            <div>
                 <i id="btn" style="font-size:24px;cursor: pointer;" class="icon ion-navicon-round"></i>
-                <a href="#" class="logo">Flat<span>lab</span></a>
-                <a href="#">
-                    <i class="icon ion-android-hand"></i>
+                <a href="#" style="" class="logo">Flat<span>lab</span></a>
+                <a class="three_hide" href="#">
+                    <i style="" class="icon ion-android-hand"></i>
                     <span class="badge badge-assertive">6</span>
                 </a>
-                <a href="#">
+                <a class="three_hide" href="#">
                     <!--<i class="icon ion-ios-bookmarks"></i>-->
                     <!--<i class="icon ion-android-people"></i>-->
                     <!--<i class="icon ion-android-bar"></i>-->
                     <i class="icon ion-ios-email-outline"></i>
                     <span class="badge badge-assertive">5</span>
                 </a>
-                <a href="#">
+                <a class="three_hide" href="#">
                     <i class="icon ion-android-notifications"></i>
                     <span class="badge badge-assertive">7</span>
                 </a>
-            </div>
             <!--<i class="icon ion-image"></i>-->
             <!--<i class="icon ion-grid"></i>-->
-            <!--<i class="icon ion-ios-cog-outline"></i>-->
+
             <!--<i class="icon ion-ios-search-strong"></i>-->
             <!--<i class="icon ion-speedometer"></i>-->
-            <!--<i class = "icon ion-ios-analytics"></i>-->
+
             <!--<i class="icon ion-search"></i>-->
         </div>
    
-       
+        <div class="right">
+
+            <input type="text" class="Sea" placeholder="Search">
+            <a id="logout" href="#">
+                <img alt="" src="http://www.uimaker.com/uploads/bs/bs04/img/avatar1_small.jpg">
+                <span class="username">CMS_QQ</span>
+                <i style="color:#F00;" class="icon ion-chevron-down"></i>
+
+            </a>
+
+            <ul class="logout">
+                <!--<div class="log-arrow-up"></div>-->
+                <li><a href="#"><i class = "icon ion-ios-analytics"></i>轮廓</a>
+                    <a href="#"> <i class="icon ion-ios-cog-outline"></i> 设置</a>
+                    <a href="#"> <i class="icon ion-android-notifications"></i>通知</a></li>
+                <li class="lout"><a href="./cms_login.html"><i class="icon ion-archive"></i> 登出</a></li>
+            </ul>
+            <span class="log_up"></span>
+        </div>
     </header>
     <section id="bottom">
         <aside  >
@@ -128,18 +150,11 @@
             </ol>
         </aside>
         <section class="">
-            <div class="box">
-                <h3>tset测试</h3>
-                <h2>tset测试</h2>
+            <div class="pre-scrollable box">
             </div>
         </section>
     </section>
-<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 
     <script src="./dist/js/1.js"></script>
 </body>
