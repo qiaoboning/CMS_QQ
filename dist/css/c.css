@@ -39,6 +39,7 @@ body {
   #bottom .contentRight {
     flex: 1;
     margin: 60px 12px 0px;
+    background: rgba(0, 255, 0, 0.3);
     overflow-y: auto; }
     #bottom .contentRight .box {
       width: 100%;
