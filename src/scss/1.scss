@@ -3,6 +3,10 @@
 	justify-content: space-between;
 	align-items: center;
 	.left{
+		#btn{
+			text-align:center;
+			padding-top:5px;
+		}
 
 		a{
 			color: #666666;
@@ -33,7 +37,45 @@
 			}
 		}
 		.three_hide{
-
+			position:relative;
+			ol{
+				position:absolute;
+				left:0;
+				top:40px;
+				// background:#f06;
+				width:235px;
+				box-shadow: rgba(0, 0, 0, 0.176) 0px 2px 8px;
+				font-size:12px;
+				text-align:left;
+				display: none;
+				li{
+					padding:0 16px;
+					line-height:50px;
+					color: rgb(51, 51, 51);
+					border-bottom: 1px solid rgb(235, 235, 235) !important;
+					i{
+						font-size:21px;
+						padding:0 7px;
+						background-color: rgba(252, 179, 34,.5);
+					}
+				}
+				span{
+					border-color: transparent transparent rgb(252, 179, 34);
+				    border-bottom-color: rgb(252, 179, 34) !important;
+				    border-top-color: rgb(252, 179, 34) !important;
+				    height: 0px;
+				    position: absolute;
+				    left: 5px;
+				    top: -20px;
+				    width: 0px;
+				    z-index: 10;
+				    margin-top: 10px;
+				    opacity: 1;
+				    border-style: solid;
+				    border-width: 0px 10px 10px;
+				    transition: all 0.5s ease 0s;
+				}
+			}
 
 			span{
 				font-size: 12px;
@@ -91,7 +133,7 @@
 			top: 48px;
 		}
 		.logout{
-			//display: none;
+			display: none;
 			position: absolute;
 			-webkit-flex-direction: column;
 			width:272px;
@@ -140,7 +182,7 @@
 	}
 }
 #bottom{
-	aside{
+	.aside{
 		background: rgba(0,0,255,.1);
 		overflow-y: auto;
 
@@ -200,6 +242,14 @@
 
 
 
+	}
+	.contentRight{
+		#box{
+		display: none;
+			width:100px;
+			height:180px;
+			background:rgba(12,3,94,.9);
+		}
 	}
 }
 .green{

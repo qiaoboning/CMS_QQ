@@ -1,4 +1,16 @@
 $(function () {
+    $(".aside,.contentRight").niceScroll();
+     $(document).click(function(){
+        console.log(this)
+        // $('#box').css('width','10px')
+        // $('#box').css('display','block')
+        $('#box').toggleClass('showhide')
+        // $('#box').toggleClass('hide')
+    })
+    $('.three_hide').click(function(){
+        $(this).children('ol').toggleClass('hide')
+
+    })
     //退出登录
     $('#logout').click(function(){
         $('.right .logout').toggleClass('hide')
@@ -20,7 +32,7 @@ $(function () {
     // })
     //显示树形菜单
     $('#btn').click(function(){
-        $('#bottom aside').toggleClass('hide')
+        $('#bottom .aside').toggleClass('hide')
     })
     //文本框显示与否
     $('.Sea').click(function(){
