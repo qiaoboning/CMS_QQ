@@ -154,7 +154,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="panel">
-                            <div class="left">
+                            <div class="left command">
                                 <i class="iconfont icon-iconfontcart"></i>
                             </div>
                             <div class="right">
@@ -180,7 +180,7 @@
             <div class="charts">
                 <div class="row">
                     <div class="col-md-8">
-                        <div id="container"></div>
+                        <div id="container" style="width:100%"></div>
                     </div>
                     <div class="col-md-4">
                         <div class="top" style="height:200px;background:#a9d96c ">
@@ -189,6 +189,135 @@
                         <div class="top" style="height:200px;background:#a9d96c ">
                             <div id="boxTwo" style="height:190px"></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 人物和工作进展 -->
+            <div class="job">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="top">
+                           <a href="JavaScript:;" class="pic"><img src="dist/imgs/girl.jpg"></a>
+                            <div class="intro">
+                                <h1>安洁娜</h1>
+                                <p>建筑师</p>
+                            </div> 
+                        </div>                        
+                        <table width="100%">
+                            <tr>
+                                <td width="33.3%"><i class="iconfont icon-tasks"></i></td>
+                                <td width="33.3%">新任务发布</td>
+                                <td>02</td>
+                            </tr> 
+                            <tr>
+                                <td><i class="iconfont icon-warning"></i></td>
+                                <td>任务待定</td>
+                                <td>02</td>
+                            </tr>
+                            <tr>
+                                <td><i class="iconfont icon-message"></i></td>
+                                <td>收件箱</td>
+                                <td>02</td>
+                            </tr>
+                            <tr class="focus">
+                                <td><i class="iconfont icon-202"></i></td>
+                                <td>新通知</td>
+                                <td>02</td>
+                            </tr>  
+                        </table>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="head">
+                            <div class="top">
+                                <h1>工作进展</h1>
+                                <p>安洁娜</p>
+                            </div> 
+                            <select style="width:45px;float:right;margin-top:20px">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        
+                        <table width="100%">
+                            <tr>
+                                <td width="33.3%"><i class="iconfont icon-tasks"></i></td>
+                                <td width="33.3%">新任务发布</td>
+                                <td>02</td>
+                            </tr> 
+                            <tr>
+                                <td><i class="iconfont icon-warning"></i></td>
+                                <td>任务待定</td>
+                                <td>02</td>
+                            </tr>
+                            <tr>
+                                <td><i class="iconfont icon-message"></i></td>
+                                <td>收件箱</td>
+                                <td>02</td>
+                            </tr>
+                            <tr class="focus">
+                                <td><i class="iconfont icon-202"></i></td>
+                                <td>新通知</td>
+                                <td>02</td>
+                            </tr>
+                            <tr class="focus">
+                                <td><i class="iconfont icon-202"></i></td>
+                                <td>新通知</td>
+                                <td>02</td>
+                            </tr>   
+                        </table>                            
+                    </div>
+                </div>
+            </div>
+            <!-- 时间线和收入 -->
+            <div class="time">
+                <div class="row">
+                    <div class="col-md-8">
+                       <div class="left">
+                           <h1>本周流行的品牌</h1>
+                           <h3>迪蒙德戒指</h3> 
+                           <p>Lorem ipsum dolor set amet lorem ipsum dolor set amet ipsum dolor set amet</p> 
+                           <a href="JavaScript:;"></a>
+                           <a href="JavaScript:;"></a>    
+                       </div>
+                       <div class="right">
+                           <img src="dist/imgs/ring.jpg">
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fan">
+                            <img src="dist/imgs/flatlab.jpg">
+                            <div class="bottom">
+                                <a href="JavaScript:;">销售</a>
+                                <a href="JavaScript:;">促销</a>
+                                <a href="JavaScript:;">照片</a>
+                                <a href="JavaScript:;">其他</a>
+                            </div>
+                        </div>
+                        <div class="person"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flatlab">
+                <div class="row">
+                    <div class="col-md-8">
+                       <div class="left">
+                           <img src="dist/imgs/feed.jpg" class="feed"> 
+                       </div>
+                       <div class="right">
+                            <h1>Twitter Feed</h1>
+                            <div class="aLLA">
+                                <a href="JavaScript:;"><img src="dist/imgs/f.jpg"></a>
+                                <a href="JavaScript:;"><img src="dist/imgs/bird.jpg"></a>
+                                <a href="JavaScript:;"><img src="dist/imgs/g.jpg"></a>
+                                <a href="JavaScript:;"><img src="dist/imgs/s.jpg"></a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                        
                     </div>
                 </div>
             </div>
@@ -203,7 +332,7 @@
     <script src="./code/highcharts.js"></script>
     <script src="./dist/js/1.js"></script>
     <script src="./dist/js/index.js"></script>
-
+   
 </body>
 </html>
 <script>
@@ -248,6 +377,6 @@
                 data: [1, 4, 2, 8, 5, 12, 10, 12, 6, 8],
                 pointStart: 1
             }]
-        });
+        });  
     });
 </script>

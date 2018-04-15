@@ -100,6 +100,7 @@
 }
 .rightContent{
 	.nav{
+		margin-top:20px;
 		.col-md-3{
 			.panel{
 				height:100px;
@@ -121,6 +122,9 @@
 				}
 				.sale{
 					background:#ff6c60;
+				}
+				.command{
+					background:#f8d347;
 				}
 				.right{
 					width:50%;
@@ -157,3 +161,162 @@
 		}
 	}
 }
+
+.job{
+	margin-top:20px;
+	padding-left:15px;
+	padding-right:15px;
+	.col-md-4{
+		height:300px;
+		border-radius:5px;
+		background:#fff;
+		.top{
+			height:110px;
+			.pic{
+				float:left;
+				margin-right:10px;
+			}
+			.intro{
+				margin-left:5px;
+				h1{
+					font-size:20px;
+					color:#39b5aa;
+					margin-top:15px;
+				}
+			}
+		}
+		table{
+			tr{
+				height:43px;
+				border-top:1px solid #eeeff1;
+				vertical-align:middle;
+			}
+			.focus{
+				border-bottom:none;
+			}
+		}
+	}
+	.col-md-8{
+		margin-left:50px;
+		background:#fff;
+		border-radius:5px;
+		.top{
+			margin-left:5px;
+			float:left;
+			h1{
+				font-size:20px;
+				color:#39b5aa;
+				margin-top:15px;
+			}
+		}
+		table{
+			tr{
+				border-top:1px solid #eeeff1;
+				height:43px;	
+			}
+		}
+	}	
+}
+.time{
+	margin-top:20px;
+	height:190px;
+	.col-md-8{
+		height:190px;
+		background:#fff;
+		margin-right:50px;
+		border-radius:5px;
+		margin-left:15px;
+		.left{
+			width:50%;
+			float:left;
+			h1{
+				padding-top:25px;
+				font-size:26px;
+				color:#937b7b;
+			}
+			h3{
+				font-size:24px;
+				color:#f8ddaf;
+			}
+		}
+		.right{
+			img{
+				width:335px;
+				height:190px;
+			}
+		}
+	}
+	.col-md-4{
+		height:190px;
+		background:#58c9f3;
+		border-radius:5px;
+		margin-right:15px;
+		.fan{
+			img{
+				width:320px;
+				height:140px;
+				margin-bottom:10px;
+			}
+			.bottom{
+				height:35px;
+				// background:#fff;
+				a{
+					line-height:35px;
+					display:inline-block;
+					width:24%;
+					text-align:center;
+					color:#fff;
+					font-size:16px;
+				}
+			}
+		}
+	}
+}
+
+.flatlab{
+	margin-top:20px;
+	height:190px;
+	.col-md-8{
+		height:190px;
+		background:#fff;
+		margin-right:50px;
+		border-radius:5px;
+		margin-left:15px;
+		.left{
+			float:left;
+			img{
+				width:335px;
+				height:190px;
+
+			}	
+		}
+		.right{
+			float:left;
+			width:50%;
+			
+			h1{
+				text-align:center;
+				padding:60px 0;
+				font-size:16px;
+				color:#a19899;
+			}
+			.aLLA{
+				padding-left:105px;
+				img{
+					margin-right:10px;
+				}
+			}
+		}
+	}
+	.col-md-4{
+		height:190px;
+		// background:#000;
+		border-radius:5px;
+		margin-right:15px;
+	}
+}
+
+
+
+
+
