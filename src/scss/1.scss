@@ -47,7 +47,7 @@
 				box-shadow: rgba(0, 0, 0, 0.176) 0px 2px 8px;
 				font-size:12px;
 				text-align:left;
-				display: none;
+				//display: none;
 				li{
 					padding:0 16px;
 					line-height:50px;
@@ -120,9 +120,7 @@
 
 
 		}
-		.show{
-			display: block;
-		}
+
 		.log_up{
 			//display: none;
 			background:#F06 url(http://www.uimaker.com/uploads/bs/bs04/img/arrow-up.png) no-repeat;
@@ -133,7 +131,7 @@
 			top: 48px;
 		}
 		.logout{
-			display: none;
+			//display: none;
 			position: absolute;
 			-webkit-flex-direction: column;
 			width:272px;

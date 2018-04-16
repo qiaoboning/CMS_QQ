@@ -39,8 +39,7 @@
       width: 235px;
       box-shadow: rgba(0, 0, 0, 0.176) 0px 2px 8px;
       font-size: 12px;
-      text-align: left;
-      display: none; }
+      text-align: left; }
       #top .left .three_hide ol li {
         padding: 0 16px;
         line-height: 50px;
@@ -96,8 +95,6 @@
       margin-left: 10px; }
       #top .right a span {
         margin: 0 10px; }
-    #top .right .show {
-      display: block; }
     #top .right .log_up {
       background: #F06 url(http://www.uimaker.com/uploads/bs/bs04/img/arrow-up.png) no-repeat;
       width: 20px;
@@ -106,7 +103,6 @@
       right: 22px;
       top: 48px; }
     #top .right .logout {
-      display: none;
       position: absolute;
       -webkit-flex-direction: column;
       width: 272px;
