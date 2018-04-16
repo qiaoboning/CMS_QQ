@@ -3,7 +3,10 @@
 	justify-content: space-between;
 	align-items: center;
 	.left{
-		//display:flex;
+		#btn{
+			text-align:center;
+			padding-top:5px;
+		}
 
 		a{
 			color: #666666;
@@ -15,6 +18,7 @@
 			margin-right: 15px;
 			text-decoration: none;
 			text-align:center;
+			position: relative;
 			.badge{
 				position: absolute;
 				right: -10px;
@@ -32,19 +36,155 @@
 				color: #FF6C60;
 			}
 		}
+		.three_hide{
+			position:relative;
+			ol{
+				position:absolute;
+				left:0;
+				top:40px;
+				// background:#f06;
+				width:235px;
+				box-shadow: rgba(0, 0, 0, 0.176) 0px 2px 8px;
+				font-size:12px;
+				text-align:left;
+				//display: none;
+				li{
+					padding:0 16px;
+					line-height:50px;
+					color: rgb(51, 51, 51);
+					border-bottom: 1px solid rgb(235, 235, 235) !important;
+					i{
+						font-size:21px;
+						padding:0 7px;
+						background-color: rgba(252, 179, 34,.5);
+					}
+				}
+				span{
+					border-color: transparent transparent rgb(252, 179, 34);
+				    border-bottom-color: rgb(252, 179, 34) !important;
+				    border-top-color: rgb(252, 179, 34) !important;
+				    height: 0px;
+				    position: absolute;
+				    left: 5px;
+				    top: -20px;
+				    width: 0px;
+				    z-index: 10;
+				    margin-top: 10px;
+				    opacity: 1;
+				    border-style: solid;
+				    border-width: 0px 10px 10px;
+				    transition: all 0.5s ease 0s;
+				}
+			}
+
+			span{
+				font-size: 12px;
+			}
+		}
 		
 
 	}
 	.right{
-		.btn-group{
-			display:inline-block;
+		display:flex;
+		height:100%;
+		align-items: center;
+		@media screen and (max-width:520px){
+			display: none;
 		}
+		.Sea{
+				width: 37px;
+				background: url(http://www.uimaker.com/uploads/bs/bs04/img/search-icon.jpg) no-repeat 10px 8px;
+				padding-left: 37px;
+				-webkit-transition: all .5s ease;
+
+			}
+		.Rch{
+			padding: 0 6px 0 37px;
+			width: 180px;
+			border: 1px solid #eaeaea;
+			border-radius: 6px;
+			color: #c8c8c8;
+			font-weight: 300;
+		}
+		a{
+			display:flex;
+			justify-content: space-between;
+			align-items: center;
+			-webkit-border-radius: 4px;
+			border: 1px solid #eeeeee;
+			padding: 3px 6px;
+			margin-left:10px;
+			span{
+				margin:0 10px;
+			}
+
+
+		}
+
+		.log_up{
+			//display: none;
+			background:#F06 url(http://www.uimaker.com/uploads/bs/bs04/img/arrow-up.png) no-repeat;
+			width: 20px;
+			height: 12px;
+			position: absolute;
+			right: 22px;
+			top: 48px;
+		}
+		.logout{
+			//display: none;
+			position: absolute;
+			-webkit-flex-direction: column;
+			width:272px;
+			height:130px;
+			top:60px;
+			right:13px;
+			li{
+				height:66px;
+				display: flex;
+				background: #f0f0f8;
+				background: #fff;
+				a{
+					flex:1;
+					display: flex;
+					-webkit-flex-direction: column;
+					font-size: 14px;
+					align-items: center;
+					justify-content: center;
+					text-align: center;
+					border:none;
+					color: #a4abbb;
+					border-radius: 0 0 3px 3px;
+					i{
+						font-size: 18px;
+					}
+				}
+				a:hover{
+					text-decoration: none;
+					font-weight: 900;
+					color:#F06;
+					background: rgba(255,0,0,.3);
+				}
+			}
+
+			.lout{
+				background: #a9d96c;
+				color:#FFF;
+				a{
+					background: #a9d96c;
+					color:#FFF;
+				}
+
+			}
+		}
+
 	}
 }
 #bottom{
-	aside{
+	.aside{
 		background: rgba(0,0,255,.1);
 		overflow-y: auto;
+
+		//scrollbar-track-color:#;
 		.list {
 			//list-style-position: inside;
 			width:160px;
@@ -77,8 +217,10 @@
 			}
 			a:hover{
 				background:rgba(255,0,0,.2);
-				background:#acd5f5;
+				//background:#acd5f5;
 				display:block;
+				width:100%;
+				height:100%;
 				color: #fff;
 				text-decoration:none;
 				i{
@@ -309,6 +451,7 @@
 			}
 		}
 	}
+<<<<<<< HEAD
 	.col-md-4{
 		height:190px;
 		// background:#000;
@@ -320,4 +463,23 @@
 
 
 
+=======
+	.contentRight{
+		#box{
+		display: none;
+			width:100px;
+			height:180px;
+			background:rgba(12,3,94,.9);
+		}
+	}
+}
+.green{
+	background:#92c609;
+}
+@media screen and (max-width:337px){
+	aside,.three_hide{
+		display: none;
+	}
+}
+>>>>>>> f8099b5804acae8ad5e71820c96b58895b894195
 
