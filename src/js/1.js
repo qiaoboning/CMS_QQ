@@ -2,14 +2,21 @@ $(function () {
     $(".aside,.contentRight").niceScroll();
      $("#qq").niceScroll();
      $(document).click(function(){
-        console.log(this)
+        // console.log(this)
         // $('#box').css('width','10px')
         // $('#box').css('display','block')
         $('#box').toggleClass('showhide')
         // $('#box').toggleClass('hide')
     })
     $('.three_hide').click(function(){
-        $(this).children('ol').toggleClass('hide')
+        if ($(this).children('ol')[0].style.display ==='none') {
+            $(this).children('ol').show()
+            $(this).siblings('.three_hide').children('ol').hide()
+        }else{
+            $(this).children('ol').hide()
+        }
+       
+
 
     })
     //退出登录
